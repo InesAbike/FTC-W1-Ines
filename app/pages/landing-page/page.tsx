@@ -1,8 +1,8 @@
-import Brands from "../components/Brands";
-import Hero from "../components/Hero";
-import Features from "../components/Features";
+import Brands from "../../components/Brands";
+import Hero from "../../components/Hero";
+import Features from "../../components/Features";
 import Image from "next/image";
-import CTA from "../components/CTA";
+import CTA from "../../components/CTA";
 export default function LandingHome() {
   return (
     <div className="bg-deep-violet">

@@ -59,7 +59,6 @@ function Navbar() {
             ))}
           </div>
 
-          {/* CTA buttons (desktop) */}
           <div className="hidden md:flex items-center space-x-4">
             {ctaButtons.map((button, index) => (
               <Link
@@ -81,7 +80,6 @@ function Navbar() {
             ))}
           </div>
 
-          {/* Mobile burger button avec animation */}
           <button
             className="md:hidden relative z-50 w-10 h-10 flex items-center justify-center"
             onClick={() => setIsOpen(!isOpen)}
@@ -121,7 +119,6 @@ function Navbar() {
           }
         `}
       >
-        {/* Backdrop avec blur */}
         <div
           className={`
             absolute inset-0 bg-black/60 backdrop-blur-md transition-all duration-500
@@ -182,8 +179,8 @@ function Navbar() {
                       : 'translate-y-8 opacity-0'
                     }
                     ${button.primary
-                      ? 'bg-gradient-to-r from-blue-500 to-purple-600 text-white hover:from-blue-600 hover:to-purple-700 shadow-lg hover:shadow-xl'
-                      : 'border border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm'
+                      ? 'bg-white hover:bg-indigo-black text-black hover:text-white shadow-lg hover:shadow-xl hover:border hover:border-white/30'
+                      : 'border border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm hover:border-indigo-black'
                     }
                   `}
                   style={{

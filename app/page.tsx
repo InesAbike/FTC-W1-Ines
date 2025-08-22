@@ -1,4 +1,4 @@
-import LandingHome from "./landing-page/page";
+import LandingHome from "./pages/landing-page/page";
 export default function Home() {
   return (
     <div className="font-montserrat text-white">
