@@ -9,7 +9,7 @@ export default function LandingHome() {
       <Image src="/images/decoration-img.png" alt="Hero" width={1000} height={500}
         className="absolute top-20 left- right-0 object-cover w-full"
       />
-      <main className="max-w-7xl mx-auto px-8 relative z-10">
+      <main className="max-w-7xl mx-auto px-5 relative z-10">
         <Hero />
         <Brands />
         <Features />
