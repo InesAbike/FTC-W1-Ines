@@ -4,7 +4,7 @@ import { Feature } from '../types';
 const FeatureCard: React.FC<{ feature: Feature }> = ({ feature }) => {
   return (
     <div className="">
-      <div className="bg-gray-900/80 backdrop-blur-sm border border-fuchsia-600/20 rounded-2xl p-8 w-full shadow-2xl hover:shadow-3xl shadow-[#61597170] hover:bg-gray-900/90 hover:border-gray-600/70 hover:scale-105 transition-all duration-300 ease-out group">
+      <div className="bg-gray-900/80 backdrop-blur-sm border border-fuchsia-600/20 rounded-2xl md:p-8 p-6 w-full shadow-2xl hover:shadow-3xl shadow-[#61597170] hover:bg-gray-900/90 hover:border-gray-600/70 hover:scale-105 transition-all duration-300 ease-out group">
         <div className="mb-2">
           <div className={`w-12 h-12 rounded-lg flex items-center justify-center transform hover:scale-110 hover:rotate-6 transition-all duration-300 ease-out shadow-lg cursor-pointer ${feature.iconColor}`}>
             {feature.icon}

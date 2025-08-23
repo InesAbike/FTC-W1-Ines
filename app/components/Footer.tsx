@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row justify-between items-center mt-16 pt-8 border-t border-gray-800">
+        <div className="flex flex-col lg:flex-row justify-between items-center pt-8 border-gray-800">
           <p className="text-[#939393] text-sm mb-4 lg:mb-0 font-light">
             &copy; {new Date().getFullYear()} Vaultflow. All Rights Reserved.
           </p>
