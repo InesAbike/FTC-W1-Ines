@@ -24,12 +24,12 @@ const Brands = () => {
             </h2>
             
             <div 
-                className='flex items-center justify-center gap-4 flex-wrap relative'
+                className='flex items-center justify-center md:gap-4 gap-2 flex-wrap relative'
             >
                 {brands.map((brand, index) => (
                     <div
                         key={index}
-                        className="relative group cursor-pointer p-4 md:w-[150px] w-[100px]"
+                        className="relative group cursor-pointer md:p-4 p-2 md:w-[150px] w-[90px]"
                     >
                         <Image 
                             src={brand.src} 

@@ -93,7 +93,7 @@ function Navbar() {
           </div>
 
           <button
-            className="bg-gradient-to-br from-indigo-900/95 to-purple-900/95 rounded-xl md:hidden relative z-50 w-10 h-10 flex items-center justify-center"
+            className="bg-indigo-900/95 rounded-lg md:hidden relative z-50 w-11 h-11 flex items-center justify-center"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
@@ -177,7 +177,7 @@ function Navbar() {
             ))}
           </div>
             
-             <div className="px-8">
+             <div className="p-8">
               <Link
                 href="#"
                 className="border flex border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm hover:border-indigo-black px-6 py-2.5 text-center rounded-full text-sm font-medium transition-colors duration-300 relative overflow-hidden group"
