@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 function Navbar() {
-  
+
   const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
     if (isOpen) {
@@ -14,12 +14,12 @@ function Navbar() {
     } else {
       document.body.style.overflow = 'unset';
     }
-    
+
     return () => {
       document.body.style.overflow = 'unset';
     };
   }, [isOpen]);
-  
+
   const menuItems = [
     { label: "Features", href: "#features" },
     { label: "Pricing", href: "#pricing" },
@@ -92,6 +92,9 @@ function Navbar() {
             ))}
           </div>
 
+<div className="bg-gradient-to-br from-indigo-900/95 to-purple-900/95 ">
+
+</div>
           <button
             className="md:hidden relative z-50 w-10 h-10 flex items-center justify-center"
             onClick={() => setIsOpen(!isOpen)}
@@ -142,7 +145,7 @@ function Navbar() {
         {/* Menu content */}
         <div
           className={`
-            absolute top-0 right-0 w-80 max-w-[85vw] h-full bg-gradient-to-br from-indigo-900/95 to-purple-900/95 backdrop-blur-xl
+            absolute top-0 right-0 w-full h-full bg-indigo-black
             transform transition-all duration-500 ease-out shadow-2xl
             ${isOpen
               ? 'translate-x-0 opacity-100'
@@ -178,30 +181,13 @@ function Navbar() {
 
             {/* CTA buttons mobile */}
             <div className="pt-8 space-y-4">
-              {ctaButtons.map((button, index) => (
-                <Link
-                  key={button.label}
-                  href={button.href}
-                  onClick={() => setIsOpen(false)}
-                  className={`
-                    block w-full py-3 px-6 rounded-full text-center font-medium transition-all duration-300
-                    transform hover:scale-105
-                    ${isOpen
-                      ? 'translate-y-0 opacity-100'
-                      : 'translate-y-8 opacity-0'
-                    }
-                    ${button.primary
-                      ? 'bg-white hover:bg-indigo-black text-black hover:text-white shadow-lg hover:shadow-xl hover:border hover:border-white/30'
-                      : 'border border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm hover:border-indigo-black'
-                    }
-                  `}
-                  style={{
-                    transitionDelay: isOpen ? `${(index + 4) * 100}ms` : '0ms'
-                  }}
-                >
-                  {button.label}
-                </Link>
-              ))}
+              <Link
+                href="#"
+                className="border hidden md:flex border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm hover:border-indigo-black px-6 py-2.5 rounded-full text-sm font-medium transition-colors duration-300 relative overflow-hidden group"
+              >
+                <span className="relative z-10">Talk to an expert</span>
+                <div className="absolute inset-0 bg-gradient-to-r from-white/5 to-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </Link>
             </div>
           </div>
         </div>

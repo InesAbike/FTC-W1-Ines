@@ -197,7 +197,7 @@ const Hero = () => {
                     
                     <div 
                         ref={buttonsRef}
-                        className="hidden md:flex items-center space-x-4"
+                        className="flex items-center space-x-4"
                     >
                         <Link
                             href="#"
@@ -208,7 +208,7 @@ const Hero = () => {
                         </Link>
                         <Link
                             href="#"
-                            className="border border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm hover:border-indigo-black px-6 py-2.5 rounded-full text-sm font-medium transition-colors duration-300 relative overflow-hidden group"
+                            className="border hidden md:flex border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm hover:border-indigo-black px-6 py-2.5 rounded-full text-sm font-medium transition-colors duration-300 relative overflow-hidden group"
                         >
                             <span className="relative z-10">Talk to an expert</span>
                             <div className="absolute inset-0 bg-gradient-to-r from-white/5 to-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
