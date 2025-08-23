@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
 
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-medium mb-6">Contact</h3>
+              <h3 className="text-2xl font-medium md:mb-6 mb-3">Contact</h3>
               <div className="space-y-3 text-gray-300 font-light">
                 <p className="leading-relaxed">
                   Work inquiries: work@vaultflow.com
@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h3 className="text-2xl font-medium mb-6">Address</h3>
+            <h3 className="text-2xl font-medium md:mb-6 mb-3">Address</h3>
             <div className="text-gray-300 space-y-2 font-light">
               <p className="leading-relaxed">398 11th Street, Floor 2</p>
               <p className="leading-relaxed">San Francisco, CA 94103</p>
@@ -34,14 +34,14 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h3 className="text-2xl font-medium mb-6">Careers</h3>
+            <h3 className="text-2xl font-medium md:mb-6 mb-3">Careers</h3>
             <p className="text-gray-300 font-light leading-relaxed">
               Careers@vaultflow.com
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-medium mb-6">Social</h3>
+            <h3 className="text-2xl font-medium md:mb-6 mb-3">Social</h3>
             <div className="space-y-3 font-light">
               <Link
                 href="#"

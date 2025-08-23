@@ -68,7 +68,7 @@ const Features = () => {
                         </a>
                     </div>
                 </div>
-                <div className="border-fuchsia-600/50 rounded-2xl shadow-2xl hover:shadow-3xl shadow-[#61597170] hover:bg-gray-900/90 hover:border-gray-600/70 hover:scale-105 transition-all duration-300 ease-out">
+                <div className="border-fuchsia-600/50 rounded-2xl shadow-2xl hover:shadow-3xl shadow-[#61597170] hover:bg-gray-900/90 hover:border-gray-600/70 transition-all duration-300 ease-out">
                     <Image
                         src="/images/code-screenshot.png"
                         alt="Code collaboration screenshot"
