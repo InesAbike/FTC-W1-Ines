@@ -162,13 +162,13 @@ const Hero = () => {
     }, []);
 
     return (
-        <section ref={heroRef} className="relative z-10 md:py-10 py-0 overflow-hidden">
+        <section ref={heroRef} className="relative z-10 md:py-10 py-0 pt-10 overflow-hidden">
             <div className="lg:py-16 py-12 flex flex-col items-center justify-between gap-8">
                 <div className="text-center sm:max-w-4xl max-w-full mx-auto flex flex-col gap-6 items-center justify-between">
                     <div className="max-w-96 mx-auto">
                         <div 
                             ref={badgeRef}
-                            className="border border-white/20 rounded-full px-6 py-3 backdrop-blur-sm"
+                            className="border border-white/20 rounded-full py-2 px-4 backdrop-blur-sm"
                         >
                             <span className="text-white/90 text-sm font-medium">
                                 We just raised $20M in Series B. Learn more
