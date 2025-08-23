@@ -162,7 +162,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <section ref={heroRef} className="relative z-10 md:py-10 py-0 pt-10 overflow-hidden">
+        <section ref={heroRef} className="relative z-10 md:pb-10 pb-0 pt-10 overflow-hidden">
             <div className="lg:py-16 py-12 flex flex-col items-center justify-between gap-8">
                 <div className="text-center sm:max-w-4xl max-w-full mx-auto flex flex-col gap-6 items-center justify-between">
                     <div className="max-w-96 mx-auto">
