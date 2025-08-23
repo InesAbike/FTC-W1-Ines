@@ -10,7 +10,7 @@ const Features = () => {
     return (
         <section className="lg:py-16 py-8 md:px-8 px-0 flex flex-col items-center justify-between gap-8">
             <div className='flex flex-col items-center mb-8 relative'>
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-base mb-6 max-w-96 text-center">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-long mb-6 max-w-96 text-center">
                     Features that work for your future
                 </h2>
                 <div className='text-lg font-base text-center max-w-lg'>
