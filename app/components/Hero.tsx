@@ -162,10 +162,10 @@ const Hero = () => {
     }, []);
 
     return (
-        <section ref={heroRef} className="relative z-10 py-10 overflow-hidden">
+        <section ref={heroRef} className="relative z-10 md:py-10 py-0 overflow-hidden">
             <div className="lg:py-16 py-12 flex flex-col items-center justify-between gap-8">
                 <div className="text-center sm:max-w-4xl max-w-full mx-auto flex flex-col gap-6 items-center justify-between">
-                    <div className="mb-12 max-w-96 mx-auto">
+                    <div className="max-w-96 mx-auto">
                         <div 
                             ref={badgeRef}
                             className="border border-white/20 rounded-full px-6 py-3 backdrop-blur-sm"
@@ -178,7 +178,7 @@ const Hero = () => {
                     
                     <h1 
                         ref={titleRef}
-                        className="text-4xl md:text-6xl lg:text-7xl font-medium mb-6 bg-gradient-to-r from-[#dedde2] via-[#a49bc2] to-[#80739e] bg-clip-text text-transparent"
+                        className="text-4xl md:text-6xl lg:text-7xl font-medium bg-gradient-to-r from-[#dedde2] via-[#a49bc2] to-[#80739e] bg-clip-text text-transparent"
                         style={{
                             backgroundSize: "200% auto",
                         }}
@@ -190,7 +190,7 @@ const Hero = () => {
                     
                     <p 
                         ref={subtitleRef}
-                        className="text-lg md:text-xl text-light-gray font-light mb-8 max-w-2xl mx-auto"
+                        className="text-lg md:text-xl text-light-gray font-light max-w-2xl mx-auto"
                     >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
                     </p>
