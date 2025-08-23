@@ -4,14 +4,14 @@ import Image from 'next/image';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-deep-violet text-white py-16 px-6">
-      <div className="mx-auto">
+    <footer className="text-white bg-deep-violet">
+      <div className="mx-auto max-w-7xl px-20 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-8 max-w-5xl">
 
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold mb-6">Contact</h3>
-              <div className="space-y-3 text-gray-300 text-extralight">
+              <h3 className="text-2xl font-medium mb-6">Contact</h3>
+              <div className="space-y-3 text-gray-300 font-light">
                 <p className="leading-relaxed">
                   Work inquiries: work@vaultflow.com
                 </p>
@@ -26,23 +26,23 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold mb-6">Address</h3>
-            <div className="text-gray-300 space-y-2 text-extralight">
+            <h3 className="text-2xl font-medium mb-6">Address</h3>
+            <div className="text-gray-300 space-y-2 font-light">
               <p className="leading-relaxed">398 11th Street, Floor 2</p>
               <p className="leading-relaxed">San Francisco, CA 94103</p>
             </div>
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold mb-6">Careers</h3>
-            <p className="text-gray-300 text-extralight leading-relaxed">
+            <h3 className="text-2xl font-medium mb-6">Careers</h3>
+            <p className="text-gray-300 font-light leading-relaxed">
               Careers@vaultflow.com
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold mb-6">Social</h3>
-            <div className="space-y-3 text-extralight">
+            <h3 className="text-2xl font-medium mb-6">Social</h3>
+            <div className="space-y-3 font-light">
               <Link
                 href="#"
                 className="block text-gray-300 hover:text-white transition-colors duration-200"
@@ -63,13 +63,12 @@ const Footer: React.FC = () => {
               </Link>
             </div>
           </div>
-        </div>
+</div>
 
         <div className="flex flex-col lg:flex-row justify-between items-center mt-16 pt-8 border-t border-gray-800">
-          <p className="text-gray-400 text-sm mb-4 lg:mb-0">
+          <p className="text-[#939393] text-sm mb-4 lg:mb-0 font-light">
             &copy; {new Date().getFullYear()} Vaultflow. All Rights Reserved.
           </p>
-
 
           <Link href="#" className="flex items-center space-x-2">
             <Image

@@ -21,7 +21,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "Vaultflow - Modern Analytics for the Modern World",
-  description: "",
+  description: "Vaultflow is a cutting-edge analytics platform that transforms complex data into actionable insights. Our intuitive dashboard provides real-time metrics, customizable reports, and powerful visualization tools to help businesses make data-driven decisions with confidence. Experience the future of business intelligence with Vaultflow's modern, user-friendly interface designed for teams of all sizes.",
 };
 
 export default function RootLayout({

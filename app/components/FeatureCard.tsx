@@ -12,7 +12,7 @@ const FeatureCard: React.FC<{ feature: Feature }> = ({ feature }) => {
         </div>
 
         <div className="mb-2">
-          <h2 className="text-white text-2xl font-bold mb-4 leading-tight">
+          <h2 className="text-white text-2xl font-medium mb-4 leading-tight">
             {feature.title}
           </h2>
         </div>

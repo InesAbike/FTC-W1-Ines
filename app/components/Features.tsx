@@ -10,10 +10,10 @@ const Features = () => {
     return (
         <section className="lg:py-16 py-12 px-8 flex flex-col items-center justify-between gap-8">
             <div className='flex flex-col items-center mb-8 relative'>
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-extralight mb-6 max-w-96 text-center">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-base mb-6 max-w-96 text-center">
                     Features that work for your future
                 </h2>
-                <div className='text-lg font-extralight text-center max-w-lg'>
+                <div className='text-lg font-base text-center max-w-lg'>
                     Check out our amazing features and experience the power of Vaultflow for yourself.
                 </div>
                 <Image src="/images/radial-gradient.png" alt="Hero" width={100} height={100}
@@ -50,7 +50,7 @@ const Features = () => {
                         </div>
                     </div>
                     <div className="mb-2">
-                        <h2 className="text-white text-2xl font-bold mb-4 leading-tight">
+                        <h2 className="text-white text-2xl font-medium mb-4 leading-tight">
                             Code Collaboration
                         </h2>
                     </div>

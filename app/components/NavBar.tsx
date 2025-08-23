@@ -30,7 +30,7 @@ function Navbar() {
   return (
     <>
       <nav className="bg-indigo-black text-white px-6 lg:py-6 py-4 relative z-50">
-        <div className="mx-auto flex items-center justify-between">
+        <div className="mx-auto flex items-center justify-between max-w-7xl">
           {/* Logo */}
           <Link href="#" className="flex items-center space-x-2 z-50 relative">
             <Image
@@ -43,7 +43,7 @@ function Navbar() {
           </Link>
 
           {/* Desktop menu */}
-          <div className="hidden md:flex items-center space-x-8 text-md font-extralight">
+          <div className="hidden md:flex items-center space-x-8 text-md font-base">
             {menuItems.map((item, index) => (
               <Link
                 key={item.label}
