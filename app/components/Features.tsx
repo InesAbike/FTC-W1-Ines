@@ -8,7 +8,7 @@ import { GoCodeSquare } from 'react-icons/go'
 
 const Features = () => {
     return (
-        <section className="lg:py-16 py-12 md:px-8 px-0 flex flex-col items-center justify-between gap-8">
+        <section className="lg:py-16 py-8 md:px-8 px-0 flex flex-col items-center justify-between gap-8">
             <div className='flex flex-col items-center mb-8 relative'>
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-base mb-6 max-w-96 text-center">
                     Features that work for your future
@@ -17,7 +17,7 @@ const Features = () => {
                     Check out our amazing features and experience the power of Vaultflow for yourself.
                 </div>
                 <Image src="/images/radial-gradient.png" alt="Hero" width={100} height={100}
-                    className="absolute -top-35 left-0 right-0 object-cover w-full"
+                    className="absolute md:-top-35 -top-20 left-0 right-0 object-cover w-full"
                 />
             </div>
 
