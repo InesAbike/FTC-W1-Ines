@@ -225,11 +225,9 @@ const Hero = () => {
                         src="/images/hero-img.png"
                         alt="Hero"
                         width={1000}
-                        height={500}
+                        height={1000}
                         className="relative z-10 transition-transform duration-300"
                     />
-                    {/* Glow effect derrière l'image */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-purple-500/20 via-blue-500/10 to-transparent blur-3xl scale-110 -z-10"></div>
                 </div>
             </div>
         </section>
