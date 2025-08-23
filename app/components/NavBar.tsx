@@ -176,16 +176,14 @@ function Navbar() {
               </Link>
             ))}
           </div>
-            
-             <div className="p-8">
-              <Link
-                href="#"
-                className="border flex border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm hover:border-indigo-black px-6 py-2.5 text-center rounded-full text-sm font-medium transition-colors duration-300 relative overflow-hidden group"
-              >
-                <span className="relative z-10">Talk to an expert</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-white/5 to-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </Link>
-            </div>
+          <div className="px-8 pb-8 w-full">
+            <Link
+              href="#"
+              className="border w-full border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm hover:border-indigo-black px-6 py-2.5 text-center rounded-full text-sm font-medium transition-colors duration-300 relative overflow-hidden group inline-block"
+            >
+              <span className="relative z-10">Talk to an expert</span>
+            </Link>
+          </div>
         </div>
       </div>
     </>
