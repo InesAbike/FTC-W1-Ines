@@ -92,11 +92,8 @@ function Navbar() {
             ))}
           </div>
 
-<div className="bg-gradient-to-br from-indigo-900/95 to-purple-900/95 ">
-
-</div>
           <button
-            className="md:hidden relative z-50 w-10 h-10 flex items-center justify-center"
+            className="bg-gradient-to-br from-indigo-900/95 to-purple-900/95 rounded-xl md:hidden relative z-50 w-10 h-10 flex items-center justify-center"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
@@ -146,7 +143,7 @@ function Navbar() {
         <div
           className={`
             absolute top-0 right-0 w-full h-full bg-indigo-black
-            transform transition-all duration-500 ease-out shadow-2xl
+            transform transition-all duration-500 ease-out shadow-2xl flex flex-col justify-between
             ${isOpen
               ? 'translate-x-0 opacity-100'
               : 'translate-x-full opacity-0'
@@ -178,18 +175,17 @@ function Navbar() {
                 </span>
               </Link>
             ))}
-
-            {/* CTA buttons mobile */}
-            <div className="pt-8 space-y-4">
+          </div>
+            
+             <div className="px-8">
               <Link
                 href="#"
-                className="border hidden md:flex border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm hover:border-indigo-black px-6 py-2.5 rounded-full text-sm font-medium transition-colors duration-300 relative overflow-hidden group"
+                className="border flex border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm hover:border-indigo-black px-6 py-2.5 text-center rounded-full text-sm font-medium transition-colors duration-300 relative overflow-hidden group"
               >
                 <span className="relative z-10">Talk to an expert</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-white/5 to-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </Link>
             </div>
-          </div>
         </div>
       </div>
     </>
