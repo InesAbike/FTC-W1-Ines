@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Footer: React.FC = () => {
   return (
     <footer className="text-white bg-deep-violet">
-      <div className="mx-auto max-w-7xl px-20 py-16">
+      <div className="mx-auto max-w-7xl px-5 md:px-20 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-8 max-w-5xl">
 
           <div className="space-y-8">
@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
               </Link>
             </div>
           </div>
-</div>
+        </div>
 
         <div className="flex flex-col lg:flex-row justify-between items-center mt-16 pt-8 border-t border-gray-800">
           <p className="text-[#939393] text-sm mb-4 lg:mb-0 font-light">

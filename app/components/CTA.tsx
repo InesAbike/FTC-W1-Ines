@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const CTA = () => {
     return (
-        <section className="lg:pt-16 pt-12 lg:pb-20 pb-14 mx-8">
+        <section className="lg:pt-16 pt-12 lg:pb-20 pb-14 md:mx-8 mx-0">
             <div className="bg-gray-900/80 mx-auto flex flex-col gap-8 items-center text-center backdrop-blur-sm border border-fuchsia-600/20 rounded-2xl p-8 w-full shadow-2xl hover:shadow-3xl shadow-[#61597170]">
                 <h1 className="text-white text-2xl font-medium mb-4 leading-tight max-w-96">
                     Our powerful analytics provides invaluable insights.
